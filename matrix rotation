@@ -1,3 +1,16 @@
 To ROTATE any matrix with dimensions N * N
  				-- take the transpose of the matrix 
 				-- reverse each row ;)
+
+
+TRANSPOSE OF MATRIX 
+
+for ( int i = 0;i<mat.size();i++)
+	{
+		for(int j=0;j<i;j++)
+			{
+				swap(mat[i][j],mat[j][i]);
+			}
+	}
+	
+	
