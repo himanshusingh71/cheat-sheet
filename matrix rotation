@@ -1,0 +1,3 @@
+To ROTATE any matrix with dimensions N * N
+ 				-- take the transpose of the matrix 
+				-- reverse each row ;)
